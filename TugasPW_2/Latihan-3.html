@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan-3</title>
+    <style>
+        h1{
+            color: black;
+            text-align: left; 
+        }
+        nav {
+            background-color: #4548fd;
+            padding: 15px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+        float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+        background-color: aqua;
+}
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            color: white;
+        }
+        .table-container { 
+			display: flex; 
+			justify-content: space-between; 
+			margin: 20px; 
+		} 
+        td {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid black; 
+        }
+        section {
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            background-color: #b1b2f3;
+            padding: 90px;
+            font-style: italic;
+        }
+        #klmt1{
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: normal;
+        }
+        #klmt2{
+            text-align: justify;
+            color: black;
+        }
+        #klmt3{
+            text-align: center;
+        }
+        article {
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        #gmbr1 {
+            width: 10cm;
+            height: 6cm;
+            margin-bottom: 10px;
+        
+        }
+        #gmbr{
+            width: 1cm;
+            height: 0,5cm;
+        }
+        time{
+            display: block;
+            color: grey;
+            float: right;
+            margin-top: 1cm;
+        }
+        .button {
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            float: left;
+        }
+
+        .button1 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #008CBA;
+        
+        }
+
+        .button1:hover {
+            background-color: #008CBA;
+            color: white;
+        }
+
+        .button2 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #008CBA;
+        }
+
+        .button2:hover {
+            background-color: #008CBA;
+            color: white;
+        }
+    </style>
+    </head>
+
+    <body>
+        <h1>Lab Pemrograman Web</h1>
+        <nav> 
+            <ul>
+                <li><img id="gmbr" src="./assets/LOGO_IBIK.png"></li>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+    </nav>
+    <section>
+        "The purpose <br> of our lives <br> is to be happy." 
+        <br><br>
+        <p id="klmt1">- DALAI LAMA -</p>
+    </section>
+    </body>
+
+    <body>
+        <div class="table-container">
+            <table class="table">
+                <tr>
+                    <td>
+                        <img id="gmbr1" src="./assets/atom.jpg" alt="Gambar 1">
+                        <p id="klmt2">An atom is the smallest unit of ordinary matter that 
+                        forms a chemical element. Every solid, liquid gas, and plasma is composed of neutral or ionized atoms.
+                    </p>
+                    <button class="button button1"><a target="_blank" href="Latihan-1.html">View</a></button>
+                    <time datetime="00:09:00">9 mins</time>
+                </td>
+                <td>
+                    <img id="gmbr1" src="./assets/hewan.jpg" alt="Gambar 2">
+                    <p id="klmt2">World Wildlife Fund is committed to 
+                    endangered species protection. See how we are 
+                    ensuring that the world our children inherit will be home to the same.
+                </p>
+                <button class="button button2"><a target="_blank" href="Latihan-2.html">View</a></button>
+                <time datetime="00:09:00">9 mins</time>
+            </td>
+        </tr>
+    </table>
+</div>
+<div>
+    <p id="klmt3">Copyright &copy; Febri Tri Purnama Putra 2022</p>
+</div>
+</body>
+</html>
